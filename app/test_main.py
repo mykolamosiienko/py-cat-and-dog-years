@@ -13,6 +13,7 @@ from app.main import get_human_age
         (27, 2),
         (28, 3),
         (29, 3),
+        (100, 21)
     ],
 )
 def test_cat_human_age(age: int , expected: int) -> None:
@@ -29,6 +30,7 @@ def test_cat_human_age(age: int , expected: int) -> None:
         (24, 2),
         (28, 2),
         (29, 3),
+        (33, 3),
         (34, 4),
         (100, 17),
     ],
